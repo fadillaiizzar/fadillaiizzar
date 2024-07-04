@@ -746,6 +746,7 @@ footer{
 
     .hider{
         height: 5%;
+        align-content: center;
     }
 
     .article-portofolio{
@@ -803,10 +804,10 @@ footer{
 
 @media screen and (max-width: 528px){
     #portofolio{
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .portofolio{
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
 }
 
