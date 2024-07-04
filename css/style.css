@@ -1,0 +1,1021 @@
+/* html dan body start */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue; 
+}
+                /* html dan body end */
+
+                /* header start */
+.home2{
+    padding: 10px 8px 10px 8px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(150, 167, 179);
+    padding: 5px 12px 5px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* logo start */
+.logo-icon{
+    height: 45px;
+    width: 45px;
+    background-image: url(../assets/logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+} 
+/* logo end */
+
+/* navigation start */
+nav > a{
+    padding: 3px 20px 5px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    color: rgb(237, 244, 250);
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+} 
+/* navigation end */
+                /* header end */
+
+                /* main start */
+.konten{
+    padding: 20px 35px 20px 35px;
+    background-color: aliceblue;
+}
+
+/* section konten start */
+.section-konten{
+    padding-bottom: 4px;
+    margin-bottom: -0.01rem;
+}
+
+/* article konten banner start */
+.p-lat{
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+/* input change name start */
+input#name-input{
+    padding: 3px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+}
+
+button#kirim{
+    padding: 3px;
+    width: 15%;
+} 
+/* input change name end */
+
+/* banner autoslide start */
+.banner-container{
+    height: 400px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* button banner start */
+.div-button{
+    display: flex;
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.div-button > .button-banner{
+    width: 20%;
+} 
+/* button banner, banner autoslide, section konten end */
+
+/* section profile start */
+.profile{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    height: 85vh;
+}
+
+/* header profile start */
+.header-profile{
+    background-color: rgb(150, 167, 179);
+    padding: 15px 35px;
+    height: 20%;
+    align-content: center;
+    border: 1px solid black;
+    border-bottom: 1px dotted black;
+    border-radius: 10px 10px 0 0;
+}
+
+.box-header-profile{
+    padding: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image: url(../assets/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+} 
+/* header profile end */
+
+/* article profile start */
+.article-profile{
+    background-color: rgb(150, 167, 179);
+    height: 80%;
+    align-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: 1px solid black;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.profile-container{
+    display: flex;
+    height: 50vh;
+}
+
+/* box text profile start */
+.text-cont-profile{
+    flex: 1;
+    background-color: rgb(206, 192, 192);
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.h3-dilla{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.p-from{
+    margin-bottom: 15px;
+}
+
+.p-about{
+    margin-bottom: 47px;
+    font-size: 15px;
+}
+
+.button-prof-port{
+    width: 95px;
+    color: aliceblue;
+}
+
+.button-prof-port:hover{
+    color: white;
+}
+
+.button-prof-port a{
+    text-decoration: none;
+    color: rgb(206, 192, 192);
+} 
+/* box text profile end */
+
+/* box img profile start */
+.gambar-profile{
+    flex: 1;
+    background-color: rgb(150, 167, 179);
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.box-gambar{
+    background-image: url(../assets/profile2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 90%;
+    height: 105%;
+}
+
+.text-atas{
+    position: relative;
+    left: -12px;
+}
+
+.p-dilla{
+    background-color: rgb(206, 192, 192);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    width: 70%;
+    position: absolute;
+    right: 45px;
+    bottom: -15px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+/* box img profile end, article profile end, section profile end */
+
+/* section portofolio start */
+.portofolio{
+    background-color: rgb(150, 167, 179);
+    margin-top: 40px;
+    margin-bottom: 2.5rem;
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* header portofolio start */
+.text-portofolio{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+} 
+/* header portofolio end */
+
+/* article portofolio start */
+.article-portofolio{
+    display: flex;
+    background-color: rgb(206, 192, 192);
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 35vh;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px dotted black;
+}
+
+.portofolio-item{
+    background-image: url(../assets/porto.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 20% 0;
+    place-content: center;
+    font-size: 15px;
+}
+
+.portofolio-item#porto-item1{
+    background-image: url(../assets/dmecca.png);
+}
+
+.portofolio-item#porto-item2{
+    background-image: url(../assets/smk.jpg);
+}
+
+.dearmecca{
+    color: wheat;
+}
+
+.dearmecca a{
+    color: wheat;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px 0;
+    padding: 7px;
+}
+
+.dearmecca a:hover{
+    color: rgb(28, 33, 36);
+    padding: 7px;
+    background-color: rgb(245, 224, 224);
+    border-radius: 0 10px;
+
+} 
+/* article portofolio, section portofolio end */
+
+/* section message start */
+.message{
+    margin-top: 40px;
+    height: 57.1vh;
+    margin-bottom: 3rem;
+    border-radius: 10px 10px 10px 10px ;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* header message start */
+.text-message{
+    background-color: rgb(206, 192, 192);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px dotted black;
+} 
+/* header message end */
+
+
+/* article message start */
+.article-message{
+    background-color: rgb(80, 49, 49);
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.message-container{
+    background-color: gray;
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* input form start */
+.box-imessage{
+    background-color: rgb(150, 167, 179);
+    flex: 1;
+    height: 100%;
+    align-content: center;
+    width: 100%;
+    border-radius: 0 0 0 10px;
+}
+
+.imessage-container{
+    margin: 30px;
+    background-color: aliceblue;
+    height: 78%;
+    align-content: center;
+    border-radius: 8px;
+}
+
+.formm{
+    background-color: aliceblue;
+    padding: 6px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.label{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 25%;
+    padding-left: 4px;
+}
+
+/* input form nama start */
+.label#label-nama{
+    text-align: start;
+}
+
+.label span#span-nama{
+    float: right;
+    padding-right: 5px;
+}
+
+input#input-nama{
+    width: 41%;
+    padding-left: 3px;
+} 
+/* input form nama end */
+
+/* input form date start */
+.label#label-date{
+    text-align: start;
+}
+.label span#span-date{
+    float: right;
+    padding-right: 5px;
+}
+input#input-date{
+    width: 41%;
+} 
+/* input form date end */
+
+/* input form gender start */
+.formm#gender{
+    display: flex;
+    justify-content: center;
+}
+
+.label#label-gender{
+    text-align: start;
+}
+
+label#label-pria{
+    padding-left: 8px;
+}
+
+label#label-wanita{
+    padding-left: 8px;
+}
+
+.label span#span-gender{
+    float: right;
+    padding-right: 5px;
+}
+
+.box-opsi{
+    display: flex;
+    width: 43%;
+    justify-content: start;
+}
+
+.box-pria{
+    padding-left: 5px;
+}
+
+.box-wanita{
+    padding-left: 15px;
+} 
+/* input form gender end */
+
+/* input form pesan start */
+.label#label-pesan{
+    text-align: start;
+    vertical-align: top;
+}
+
+.label span#span-pesan{
+    float: right;
+    padding-right: 5px;
+}
+
+textarea#tarea-pesan{
+    height: 12vh;
+    width: 41%;
+    padding-left: 3px;
+    padding-top: 4px;
+} 
+/* input form pesan end */
+
+/* button submit form start */
+button{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -2px;
+    width: 67%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+} 
+/* button submit form, input form end */
+
+/* output form start */
+.box-omessage{
+    background-color: rgb(150, 167, 179);
+    flex: 1;
+    height: 100%;
+    align-content: center;
+    border-radius: 0 0 10px 0;
+}
+
+.omessage-container{
+    margin: 30px;
+    background-color: aliceblue;;
+    height: 77%;
+    align-content: center;
+    border-radius: 8px;
+} 
+/* output form, article message, section message end */
+                /* main end */
+
+                /* footer start */
+footer{
+    background-color: rgb(150, 167, 179);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 12px 15px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+/* header footer start */
+.text-footer{
+    height: 10vh;
+    font-size: 27px;
+    align-content: center;
+    text-align-last: center;
+}
+
+.text-footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.text-footer a:hover{
+    color: rgb(68, 69, 70);
+} 
+/* header footer end */
+
+/* article footer sosmed start */
+.sosmed{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.ig{
+    margin-right: 12px;
+}
+
+.sosmed .ig .box-ig{
+    background-image: url(../assets/ig.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.mail{
+    margin-right: 12px;
+}
+
+.sosmed .mail .box-mail{
+    background-image: url(../assets/yt.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.sosmed .pin .box-pin{
+    background-image: url(../assets/pin.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+} 
+/* article footer sosmed end */
+                /* footer end */
+
+                /* media screen start */
+@media screen and (max-width: 1212px){
+    .article-message{
+        height: 89%;
+    }
+
+    .message-container{
+        height: 100%;
+    }
+
+    .portofolio{
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1052px){
+    .label , .label#label-pria , .label#label-wanita{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1028px){
+    .message{
+        height: 65vh;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .header-message{
+        height: 13%;
+    }
+
+    .article-message{
+        height: 87%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .portofolio{
+        margin-bottom: 2.5rem;
+    }
+
+    .portofolio-item{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .profile{
+        margin-bottom: 3.7rem;
+    }
+
+    .label{
+        font-size: 12px;
+    }
+
+    #label-pria{
+        font-size: 13px;
+    }
+
+    #label-wanita{
+        font-size: 13px;
+    }
+
+    .out{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+    .text-atas{
+        left: 18px;
+    }    
+
+    .message{
+        height: 120vh;
+    }
+
+    .header-message{
+        height: 10%;
+    }
+
+    .message-container{
+        flex-direction: column;
+        background-color: rgb(150, 167, 179);
+    }
+
+    .imessage-container{
+        padding: 10px;
+    }
+
+    .box-omessage{
+        width: 100%;
+    }
+
+    .label{
+        font-size: 14px;
+    }
+
+    #label-pria{
+        font-size: 14px;
+    }
+
+    #label-wanita{
+        font-size: 14px;
+    }
+
+    .sosmed .ig .box-ig{
+        width: 33px;
+        height: 33px;
+    }
+
+    .sosmed .mail .box-mail{
+        width: 33px;
+        height: 33px;
+    }
+
+    .sosmed .pin .box-pin{
+        width: 33px;
+        height: 33px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .p-about{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    nav a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .profile{
+        margin-bottom: 17rem;
+    }
+
+    .box-header-profile{
+        margin: 0;
+    }
+
+    .text-profile{
+        font-size: 20px;
+    }
+
+    .article-profile{
+        height: 95vh;
+        padding: 20px;
+    }
+
+    .profile-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90vh;
+    }
+
+    .text-cont-profile{
+        margin-top: 2rem;
+    }
+
+    .text-atas{
+        left: -8px;
+    }    
+}
+
+@media screen and (max-width: 535px){
+    .text-atas{
+        left: 9px;
+    } 
+
+    .portofolio{
+        height: 180vh;
+        margin-bottom: 2.5rem;
+    }
+
+    .hider{
+        height: 5%;
+    }
+
+    .article-portofolio{
+        display: grid;
+        padding: 0;
+        height: 94.9%;
+    }
+
+    .portofolio-container{
+        margin: 10px;
+        margin-bottom: 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    .portofolio-container#por4{
+        margin-bottom: 10px;
+    }
+
+    .portofolio-item{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .label{
+        font-size: 13px;
+    }
+
+    #label-pria{
+        font-size: 13px;
+    }
+
+    #label-wanita{
+        font-size: 13px;
+    }
+
+    input#input-nama{
+        width: 37%;
+    }
+
+    input#input-date{
+        width: 37%;
+    }
+
+    .box-opsi{
+        width: 39%;
+    }
+
+   textarea#tarea-pesan{
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 528px){
+    #portofolio{
+        margin-top: 3rem;
+    }
+    .portofolio{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    nav a{
+        font-size: 10px;
+        padding: 7px;
+    }
+
+    .text-profile{
+        font-size: 15px;
+    }
+
+    input#name-input{
+        font-size: 12px;
+    }
+
+    button#kirim{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .profile{
+        margin-bottom: 14rem;
+    }
+
+    .header-profile{
+        height: 10vh;
+    }
+
+    .label{
+        font-size: 12px;
+    }
+    
+    #label-pria{
+        font-size: 12px;
+    }
+    
+    #label-wanita{
+        font-size: 12px;
+    }
+
+    .out{
+        font-size: 13px;
+    }
+
+    .text-footer{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .formm{
+        width: 90%;
+        text-align-last: left;
+        font-size: 10px;
+    }
+
+    .message-form{
+        text-align: -webkit-center;
+    }
+
+    .label{
+        font-size: 13px;
+        width: 40%;
+    }
+
+    input#input-nama{
+        width: 50%;
+    }
+
+    input#input-date{
+        width: 51%;
+    }
+
+    .box-opsi{
+        width: 59%;
+    }
+
+    textarea#tarea-pesan{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .div-button > .button-banner{
+        width: 30%;
+    }
+
+    .text-atas{
+        left: 26px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 395px){
+    .text-atas{
+        left: 33px;
+    }
+
+    .p-from{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .profile{
+        margin-bottom: 14.5rem;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .header-profile{
+        height: 10vh;
+    }
+
+    .text-profile{
+        font-size: 15px;
+    }
+
+    .p-from{
+        font-size: 14px;
+    }
+
+    .p-about{
+        font-size: 12px;
+    }
+
+    .gambar-profile{
+        width: 100%;
+        align-self: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .box-gambar{
+        width: 100%;
+    }
+
+    .text-atas{
+        left: 17px;
+    }
+
+    .logo-icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .text-cont-profile{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .text-atas{
+        left: 28px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    nav a{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    input#name-input{
+        width: 52%;
+    }
+
+    button#kirim{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .label{
+        font-size: 11px;
+    }
+
+    .label#label-pria{
+        font-size: 11px;
+    }
+
+    .label#label-wanita{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 335px){
+    .text-profile{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    nav a{
+        font-size: 8px;
+    }
+
+    .logo-icon{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .text-profile{
+        font-size: 12px;
+    }
+}
+                /* media screen end */
