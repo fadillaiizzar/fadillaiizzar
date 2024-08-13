@@ -277,6 +277,10 @@ button#kirim{
     background-image: url(../assets/smk.jpg);
 }
 
+.portofolio-item#porto-item3{
+    background-image: url(../assets/tes.jpg);
+}
+
 .dearmecca{
     color: wheat;
 }
