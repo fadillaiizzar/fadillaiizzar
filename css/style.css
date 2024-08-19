@@ -511,12 +511,12 @@ footer{
     text-align-last: center;
 }
 
-.text-footer a{
+.text-footer{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-.text-footer a:hover{
+.text-footer:hover{
     color: rgb(68, 69, 70);
 } 
 /* header footer end */
